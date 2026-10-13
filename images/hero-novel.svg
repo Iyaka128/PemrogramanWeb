@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f2e"/>
+      <stop offset="0.6" stop-color="#2a1b66"/>
+      <stop offset="1" stop-color="#5b2a86"/>
+    </linearGradient>
+    <radialGradient id="bookglow">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#night)"/>
+  <g fill="#fff">
+    <circle cx="120" cy="80" r="2.5" opacity="0.9"/><circle cx="260" cy="200" r="2" opacity="0.7"/>
+    <circle cx="410" cy="110" r="3" opacity="0.9"/><circle cx="560" cy="250" r="2" opacity="0.6"/>
+    <circle cx="700" cy="70" r="2.5" opacity="0.8"/><circle cx="900" cy="170" r="2" opacity="0.7"/>
+    <circle cx="1040" cy="90" r="3" opacity="0.9"/><circle cx="1180" cy="240" r="2" opacity="0.6"/>
+    <circle cx="1320" cy="60" r="2.5" opacity="0.8"/><circle cx="1480" cy="180" r="2" opacity="0.7"/>
+    <circle cx="80" cy="330" r="2" opacity="0.6"/><circle cx="1540" cy="340" r="2.5" opacity="0.8"/>
+  </g>
+  <circle cx="1300" cy="220" r="80" fill="#ffe9b0"/>
+  <circle cx="1330" cy="200" r="72" fill="#2a1b66"/>
+  <path d="M0 780 L180 600 L330 720 L520 540 L720 730 L900 580 L1100 740 L1300 600 L1450 700 L1600 620 L1600 900 L0 900 Z" fill="#1a1042"/>
+  <path d="M0 850 L220 720 L420 820 L640 700 L860 830 L1080 720 L1300 840 L1600 740 L1600 900 L0 900 Z" fill="#0f0a2a"/>
+  <circle cx="800" cy="520" r="300" fill="url(#bookglow)"/>
+  <g>
+    <path d="M800 560 C720 520 620 520 540 548 L540 700 C620 672 720 672 800 712 Z" fill="#fff4dc"/>
+    <path d="M800 560 C880 520 980 520 1060 548 L1060 700 C980 672 880 672 800 712 Z" fill="#ffe9b0"/>
+    <path d="M800 560 L800 712" stroke="#c9a15a" stroke-width="5"/>
+    <g stroke="#c9a15a" stroke-width="3" opacity="0.7">
+      <path d="M580 585 C650 565 720 570 775 595"/><path d="M580 620 C650 600 720 605 775 630"/>
+      <path d="M825 595 C880 570 950 565 1020 585"/><path d="M825 630 C880 605 950 600 1020 620"/>
+    </g>
+  </g>
+  <g fill="#fff4dc" opacity="0.9">
+    <rect x="560" y="360" width="70" height="90" rx="4" transform="rotate(-18 595 405)"/>
+    <rect x="720" y="260" width="64" height="82" rx="4" transform="rotate(12 752 301)"/>
+    <rect x="900" y="340" width="72" height="92" rx="4" transform="rotate(22 936 386)"/>
+    <rect x="1030" y="450" width="56" height="72" rx="4" transform="rotate(-10 1058 486)"/>
+    <rect x="470" y="470" width="52" height="68" rx="4" transform="rotate(16 496 504)"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+ 
+@theme {
+  --color-utama: #00ffff;
+  --color-aksen: #FF8C00;
+  --color-gelap: #000000;
+ 
+  --animate-slide: slide 20s infinite backwards;
+ 
+  @keyframes slide {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    25%  { opacity: 1; }
+    30%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}

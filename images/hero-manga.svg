@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <rect width="22" height="22" fill="#fff4f6"/>
+      <circle cx="11" cy="11" r="5" fill="#ff5d73" opacity="0.55"/>
+    </pattern>
+    <radialGradient id="fade">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+  <circle cx="800" cy="450" r="420" fill="none" stroke="#120a2a" stroke-width="1400" stroke-dasharray="7 31" opacity="0.92"/>
+  <circle cx="800" cy="450" r="330" fill="url(#fade)"/>
+  <rect x="60" y="60" width="1480" height="780" fill="none" stroke="#120a2a" stroke-width="14"/>
+  <polygon points="60,60 520,60 380,300 60,300" fill="#120a2a" opacity="0.9"/>
+  <polygon points="1540,840 1100,840 1230,640 1540,640" fill="#ff5d73" opacity="0.95"/>
+  <g stroke="#120a2a" stroke-width="10" fill="none" stroke-linejoin="round">
+    <polygon points="800,260 850,400 1000,410 880,500 920,640 800,560 680,640 720,500 600,410 750,400" fill="#ffb547"/>
+  </g>
+</svg>
